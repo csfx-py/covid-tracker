@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<span>Covid-19 </span> 
+				<span class="typing" id="typing"> </span>
+			</div>
+			<div class="navmenu" id="myNav">
+				<a href="#home">Home</a>
+				<a href="#track">Tracker</a>
+				<a href="#symptom">Symptoms</a>
+				<a href="#prevent">Safety</a>
+				<a href="#contact">Help</a>
+				<a href="#" style="font-size:17px;" class="icon" onclick="cascNav()">&#9776;</a>
+			</div>
+		</header>
+
+		<div class="intro_container" id="home">
+			<div class="intro">
+				<div class="intro_txt">
+					<p>Novel Corona Virus - Covid-19</p>
+					<h1>#StayHome #StaySafe</h1>
+					<p>
+						Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
+					</p>
+				</div>
+				<img src="covid19.png" alt="Corona Virus Structure">
+			</div>
+		</div>
+		<div class="tracker_container" id="track">
+			<div class="tracker">
+				<div class="infected">
+					Infected <br>
+					<span class="number">Fetching...</span>
+				</div>
+				<div class="recovered">
+					Recovered<br>
+					<span class="number">Fetching...</span>
+				</div>
+				<div class="dead">
+					Dead<br>
+					<span class="number">Fetching...</span>
+				</div><br>
+				<div class="total">
+					Total<br>
+					<span class="number">Fetching...</span>
+				</div>
+				</div>
+		</div>
+		<div class="last_updated">
+			Stats last updated: 
+			<span class="ref_date"></span>
+		</div>
+
+		<div class="symptoms_container" id="symptom">
+			<div class="sym_title">
+				 Covid-19 Symptoms
+			</div>
+			<div class="symptoms">
+				<div class="sym_img_container">
+					<div class="sym_grid">
+						<div class="sym_cell">
+							<img src="cough.png" alt="Cough and Sneeze">
+						</div>
+						<div class="sym_cell">
+							<img src="fever.png" alt="Fever">
+						</div>
+					</div>
+				</div>
+				<div class="sym_info">
+					<p>
+						The most common symptoms of coronavirus disease (COVID-19) are <b>fever</b>, <b>difficulty in breathing</b> <b>tiredness</b>, and <b>dry cough</b>. Most people (about 80%) recover from the disease without needing special treatment.
+						More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="prevention_container" id="prevent">
+			<div class="prev_title">
+				 Covid-19 Prevention #Prevention is better than Cure
+			</div>
+			<div class="prevention">
+					<div class="prev_grid">
+						<div class="prev_cell">
+							<img src="dist.png" alt="Social distancing"><br>
+							<span><b>Maintain social distancing</b></span><br>
+							<p>Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus.</p>
+						</div>
+						<div class="prev_cell">
+							<img src="wash.png" alt="Wash Hands"><br>
+							<span><b>Wash your hands frequently</b></span><br>
+							<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.</p>
+						</div>
+						<div class="prev_cell">
+							<img src="mask.png" alt="Wear Masks"><br>
+							<span><b>Wear a Mask</b></span><br>
+							<p>Wear a mask if you are coughing or sneezing. Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water. Read more about when & how to use masks from WHO.</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		
+		<div class="help_container" id="contact">
+			<div class="help_title">
+				Resources & Information
+		   </div>
+			<div class="help">
+				<a>Helpine - 011-23978046 & 1075</a>
+				<a href="wa.me/919013151515">MyGov Corona Helpdesk</a>
+				<a href="covid19india.org">covid19india.org</a>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
