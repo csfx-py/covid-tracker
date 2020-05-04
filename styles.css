@@ -346,6 +346,7 @@ header {
         justify-content: center;
         align-items: center;
         margin-bottom: 3rem;
+        line-height: 2.5rem;
     }
 
     .tracker-container {
@@ -374,5 +375,8 @@ header {
     .prev_grid {
         display: flex;
         flex-direction: column;
+    }
+    .prev_grid {
+        padding: 1.5rem;
     }
 }
