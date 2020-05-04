@@ -346,8 +346,11 @@ header {
         justify-content: center;
         align-items: center;
         margin-bottom: 3rem;
-        line-height: 2.5rem;
     }
+
+    .intro .intro_txt {
+        line-height: 3rem;
+    } 
 
     .tracker-container {
         flex-direction: column;
@@ -376,7 +379,7 @@ header {
         display: flex;
         flex-direction: column;
     }
-    .prev_grid {
+    .prev_cell {
         padding: 1.5rem;
     }
 }
